@@ -1,0 +1,33 @@
+{
+  "name": "jest-remove-path-extension",
+  "version": "0.1.0",
+  "description": "Jest transform plugin to remove path extension",
+  "author": "ilvetrov",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilvetrov/jest-remove-path-extension.git"
+  },
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "jest --clearCache; jest",
+    "test-watch": "jest --clearCache; jest --watch"
+  },
+  "engines": {
+    "node": ">= 12.13.0"
+  },
+  "peerDependencies": {
+    "@jest/transform": ">= 24.5.0"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
